@@ -24,8 +24,8 @@ public class Main {
             if(array[i].length() > max.length()){ max = array[i]; }
             if(array[i].length() < min.length()){ min = array[i]; }
         }
-        System.out.println("\nСамая длинная строка: " + max);
-        System.out.println("Самая короткая строка: " + min);
+        System.out.println("\nСамая длинная строка("+max.length()+" символов): " + max);
+        System.out.println("Самая короткая строка("+min.length()+" символов): " + min);
 
         // Упорядочивание
         for(int j = str_num-1; j > 0; j--){
@@ -44,7 +44,7 @@ public class Main {
         }
 
         System.out.println("\nРазработал: Арещенков Дмитрий Александрович");
-        System.out.println("Задание выдано: 17.02.2023 17:25");
+        System.out.println("Задание выдано: 17-02-2023 17:25");
         System.out.println("Задание сдано: " + LocalDate.now() + " " + LocalTime.now());
     }
 }
